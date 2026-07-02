@@ -1,0 +1,50 @@
+# Environment variables - DON'T COMMIT!
+.env
+.env.local
+.env.*.local
+.env.production
+.env.development
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# Data files
+rag_chat_history.json
+*.db
+*.sqlite
+*.log
+
+# Temporary files
+temp_*
+*.tmp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+.env
+.venv/
+users.db
+__pycache__/
+*.pyc
